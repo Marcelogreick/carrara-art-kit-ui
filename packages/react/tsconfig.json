@@ -1,0 +1,4 @@
+{
+    "extends": "@carrara-art-kit-ui/ts-config/react.json",
+    "include": ["src"]
+}

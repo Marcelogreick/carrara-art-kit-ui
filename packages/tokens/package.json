@@ -1,0 +1,22 @@
+{
+  "name": "@carrara-art-kit-ui/tokens",
+  "version": "2.2.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "@carrara-art-kit-ui/ts-config": "*",
+    "@carrara-art-kit-ui/eslint-config": "*"
+  }
+}

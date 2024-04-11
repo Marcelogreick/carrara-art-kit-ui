@@ -1,0 +1,4 @@
+{
+  "extends": "@carrara-art-kit-ui/ts-config/base.json",
+  "include": ["src"]
+}
